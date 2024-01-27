@@ -13,6 +13,7 @@ export default function App() {
     }
   }
 
+  //simple example of useReducer
   const [state, dispatch] = useReducer(reducer, { count: 0 });
 
   return (
